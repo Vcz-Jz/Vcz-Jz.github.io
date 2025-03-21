@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income vs Quality of Life in the U.S.</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+        .chart-container {
+            width: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Average Income & Quality of Life in the U.S.</h1>
+    
+    <h2>Average Income by State</h2>
+    <div class="chart-container">
+        <canvas id="incomeChart"></canvas>
+    </div>
+
+    <h2>Quality of Life Rankings</h2>
+    <div class="chart-container">
+        <canvas id="qualityChart"></canvas>
+    </div>
+
+    <script>
+        // Sample Data
+        const states = ["California", "Texas", "New York", "Florida", "Illinois"];
+        const avgIncome = [78000, 65000, 74000, 62000, 67000]; // Average income in USD
+        const qualityRank = [5, 15, 8, 18, 12]; // Lower is better (1 is best)
+
+        // Doughnut Chart - Average Income
+        new Chart(document.getElementById("incomeChart"), {
+            type: "doughnut",
+            data: {
+                labels: states,
+                datasets: [{
+                    label: "Avg Income (USD)",
+                    data: avgIncome,
+                    backgroundColor: ["#FF5733", "#33FF57", "#3380FF", "#F3FF33", "#8D33FF"]
+                }]
+            }
+        });
+
+        // Horizontal Bar Chart - Quality of Life Ranking
+        new Chart(document.getElementById("qualityChart"), {
+            type: "bar",
+            data: {
+                labels: states,
+                datasets: [{
+                    label: "Quality of Life Rank (Lower is better)",
+                    data: qualityRank,
+                    backgroundColor: ["#FF5733", "#33FF57", "#3380FF", "#F3FF33", "#8D33FF"]
+                }]
+            },
+            options: {
+                indexAxis: "y" // Horizontal bar chart
+            }
+        });
+    </script>
+</body>
+</html>
