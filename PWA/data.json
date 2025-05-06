@@ -1,0 +1,61 @@
+{
+    "inventors": [
+      {
+        "id": "tesla",
+        "name": "Nikola Tesla",
+        "description": "Nikola Tesla was known for his work on alternating current (AC) and wireless transmission.",
+        "image": "images/nikola_tesla.jpg",
+        "audio": "audio/nikola_tesla.mp3"
+      },
+      {
+        "id": "curie",
+        "name": "Marie Curie",
+        "description": "Marie Curie pioneered research on radioactivity and was the first woman to win a Nobel Prize.",
+        "image": "images/marie_curie.jpg",
+        "audio": "audio/marie_curie.mp3"
+      },
+      {
+        "id": "edison",
+        "name": "Thomas Edison",
+        "description": "Thomas Edison was an American inventor and businessman who held 1,093 US patents",
+        "image": "images/thomas_edison.png",
+        "audio": "audio/thomas_edison.mp3"
+      },
+      {
+        "id": "franklin",
+        "name": "Benjamin Franklin",
+        "description": "Benjamin Franklin is best known for his inventions like the bifocal glasses, the Franklin stove, and the lightning rod",
+        "image": "images/benjamin_franklin.png",
+        "audio": "audio/benjamin_franklin.mp3"
+      },
+      {
+        "id": "bell",
+        "name": "Alexander Graham Bell",
+        "description": "Alexander Graham Bell is primarily known for inventing the telephone. He received a patent for his invention in 1876, which revolutionized communication.",
+        "image": "images/graham_bell.png",
+        "audio": "audio/graham_bell.mp3"
+      },
+      {
+        "id": "da_vinci",
+        "name": "Leonardo da Vinci",
+        "description": "Leonardo da Vinci is famous for his remarkable contributions to art, science, and engineering, earning him the title of a Renaissance man.",
+        "image": "images/da_vinci.png",
+        "audio": "audio/da_vinci.mp3"
+      },
+      {
+        "id": "berners",
+        "name": "Tim Berners-Lee",
+        "description": "Tim Berners-Lee, a British scientist, invented the World Wide Web (WWW) in 1989, while working at CERN",
+        "image": "images/lee.png",
+        "audio": "audio/lee.mp3"
+      },
+      {
+        "id": "barton",
+        "name": "Clara Barton",
+        "description": "Clara Barton is best known as the founder of the American Red Cross and for her work as a Civil War nurse and relief worker.",
+        "image": "images/barton.png",
+        "audio": "audio/barton.mp3"
+      }
+    ]
+  }
+  
