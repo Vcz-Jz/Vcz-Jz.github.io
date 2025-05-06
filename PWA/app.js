@@ -17,15 +17,13 @@ fetch('data.json')
     });
   });
 
-// Function to play the audio
 function playAudio(audioId) {
   const audio = document.getElementById(audioId);
   audio.play();
 }
 
-// Function to pause the audio and reset to the beginning
 function pauseAudio(audioId) {
   const audio = document.getElementById(audioId);
-  audio.pause();  // Pauses the audio
-  audio.currentTime = 0;  // Resets the audio to the beginning
+  audio.pause();  
+  audio.currentTime = 0;  
 }
